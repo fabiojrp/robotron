@@ -17,7 +17,8 @@ body {
     font-weight: 300;
 }
 
-body, input {
+body,
+input {
     font-family: 'Teko', sans-serif;
 }
 
@@ -55,15 +56,16 @@ main {
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(255, 255, 255, 0.8)
 }
 
 .box {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
     height: 80%;
 }
+
 
 /****************************** Equipamentos *****/
 
@@ -72,7 +74,8 @@ main {
 }
 
 .montador {
-    height: 100%;;
+    height: 100%;
+    ;
 }
 
 .montador-conteudo {
@@ -149,8 +152,8 @@ main {
 }
 
 
-
 /****************************** Estatísticas *****/
+
 .estatisticas {
     flex-basis: 23%;
     padding: 2em 2em 0;
@@ -210,7 +213,7 @@ main {
 }
 
 @media screen and (max-width: 1600px) {
-    body { 
+    body {
         font-size: 14px;
     }
     main {
@@ -221,10 +224,9 @@ main {
 }
 
 @media screen and (max-width: 1200px) {
-    body { 
+    body {
         font-size: 13px;
     }
-
     main {
         width: 96vw;
         height: 80vh;
